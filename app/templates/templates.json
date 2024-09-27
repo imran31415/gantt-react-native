@@ -1,0 +1,813 @@
+{
+    "templates": {
+        "software": {
+            "label": "Template: Software Dev",
+            "participants": [
+                {
+                    "id": "Alice Walker",
+                    "name": "Alice Walker",
+                    "capacity": "8",
+                    "color": "#FF5733"
+                },
+                {
+                    "id": "Bob Smith",
+                    "name": "Bob Smith",
+                    "capacity": "7",
+                    "color": "#33FF57"
+                },
+                {
+                    "id": "Carol Johnson",
+                    "name": "Carol Johnson",
+                    "capacity": "6",
+                    "color": "#3357FF"
+                },
+                {
+                    "id": "Dave Brown",
+                    "name": "Dave Brown",
+                    "capacity": "5",
+                    "color": "#FF33A8"
+                },
+                {
+                    "id": "Eve Davis",
+                    "name": "Eve Davis",
+                    "capacity": "9",
+                    "color": "#A833FF"
+                }
+            ],
+            "tasks": [
+                {
+                    "id": "SD_Task1",
+                    "name": "Project Kickoff Meeting",
+                    "start": "2024-01-01",
+                    "end": "2024-01-01",
+                    "progress": 100,
+                    "assignee": "Eve Davis"
+                },
+                {
+                    "id": "SD_Task2",
+                    "name": "Requirements Gathering",
+                    "start": "2024-01-02",
+                    "end": "2024-01-05",
+                    "progress": 100,
+                    "assignee": "Eve Davis"
+                },
+                {
+                    "id": "SD_Task3",
+                    "name": "Design Architecture",
+                    "start": "2024-01-06",
+                    "end": "2024-01-10",
+                    "progress": 80,
+                    "assignee": "Bob Smith"
+                },
+                {
+                    "id": "SD_Task4",
+                    "name": "Setup Development Environment",
+                    "start": "2024-01-11",
+                    "end": "2024-01-12",
+                    "progress": 100,
+                    "assignee": "Dave Brown"
+                },
+                {
+                    "id": "SD_Task5",
+                    "name": "Develop Frontend Module 1",
+                    "start": "2024-01-13",
+                    "end": "2024-01-20",
+                    "progress": 50,
+                    "assignee": "Alice Walker"
+                },
+                {
+                    "id": "SD_Task6",
+                    "name": "Develop Backend Module 1",
+                    "start": "2024-01-13",
+                    "end": "2024-01-20",
+                    "progress": 60,
+                    "assignee": "Bob Smith"
+                },
+                {
+                    "id": "SD_Task7",
+                    "name": "Integration Testing",
+                    "start": "2024-01-21",
+                    "end": "2024-01-25",
+                    "progress": 0,
+                    "assignee": "Carol Johnson"
+                },
+                {
+                    "id": "SD_Task8",
+                    "name": "Develop Frontend Module 2",
+                    "start": "2024-01-26",
+                    "end": "2024-02-05",
+                    "progress": 0,
+                    "assignee": "Alice Walker"
+                },
+                {
+                    "id": "SD_Task9",
+                    "name": "Develop Backend Module 2",
+                    "start": "2024-01-26",
+                    "end": "2024-02-05",
+                    "progress": 0,
+                    "assignee": "Bob Smith"
+                },
+                {
+                    "id": "SD_Task10",
+                    "name": "User Acceptance Testing",
+                    "start": "2024-02-06",
+                    "end": "2024-02-10",
+                    "progress": 0,
+                    "assignee": "Carol Johnson"
+                },
+                {
+                    "id": "SD_Task11",
+                    "name": "Deployment to Production",
+                    "start": "2024-02-11",
+                    "end": "2024-02-11",
+                    "progress": 0,
+                    "assignee": "Dave Brown"
+                }
+            ]
+        },
+        "audit": {
+            "label": "Template: Audit Engagement",
+            "participants": [
+                {
+                    "id": "John Miller",
+                    "name": "John Miller",
+                    "capacity": "8",
+                    "color": "#1F618D"
+                },
+                {
+                    "id": "Sarah Wilson",
+                    "name": "Sarah Wilson",
+                    "capacity": "6",
+                    "color": "#28B463"
+                },
+                {
+                    "id": "Michael Anderson",
+                    "name": "Michael Anderson",
+                    "capacity": "7",
+                    "color": "#D68910"
+                },
+                {
+                    "id": "Linda Thompson",
+                    "name": "Linda Thompson",
+                    "capacity": "5",
+                    "color": "#C0392B"
+                },
+                {
+                    "id": "Client A",
+                    "name": "Client A",
+                    "capacity": "N/A",
+                    "color": "#7D3C98"
+                },
+                {
+                    "id": "Client B",
+                    "name": "Client B",
+                    "capacity": "N/A",
+                    "color": "#839192"
+                }
+            ],
+            "tasks": [
+                {
+                    "id": "FA_Task1",
+                    "name": "Planning Meeting",
+                    "start": "2024-03-01",
+                    "end": "2024-03-01",
+                    "progress": 100,
+                    "assignee": "Michael Anderson"
+                },
+                {
+                    "id": "FA_Task2",
+                    "name": "Collect Financial Statements from Client A",
+                    "start": "2024-03-02",
+                    "end": "2024-03-05",
+                    "progress": 100,
+                    "assignee": "Linda Thompson"
+                },
+                {
+                    "id": "FA_Task3",
+                    "name": "Collect Financial Statements from Client B",
+                    "start": "2024-03-02",
+                    "end": "2024-03-05",
+                    "progress": 80,
+                    "assignee": "Linda Thompson"
+                },
+                {
+                    "id": "FA_Task4",
+                    "name": "Perform Audit Procedures for Client A",
+                    "start": "2024-03-06",
+                    "end": "2024-03-15",
+                    "progress": 50,
+                    "assignee": "John Miller"
+                },
+                {
+                    "id": "FA_Task5",
+                    "name": "Perform Audit Procedures for Client B",
+                    "start": "2024-03-06",
+                    "end": "2024-03-15",
+                    "progress": 40,
+                    "assignee": "Sarah Wilson"
+                },
+                {
+                    "id": "FA_Task6",
+                    "name": "Prepare Audit Report for Client A",
+                    "start": "2024-03-16",
+                    "end": "2024-03-20",
+                    "progress": 0,
+                    "assignee": "John Miller"
+                },
+                {
+                    "id": "FA_Task7",
+                    "name": "Prepare Audit Report for Client B",
+                    "start": "2024-03-16",
+                    "end": "2024-03-20",
+                    "progress": 0,
+                    "assignee": "Sarah Wilson"
+                },
+                {
+                    "id": "FA_Task8",
+                    "name": "Review Reports",
+                    "start": "2024-03-21",
+                    "end": "2024-03-22",
+                    "progress": 0,
+                    "assignee": "Michael Anderson"
+                },
+                {
+                    "id": "FA_Task9",
+                    "name": "Present Findings to Clients",
+                    "start": "2024-03-23",
+                    "end": "2024-03-23",
+                    "progress": 0,
+                    "assignee": "Michael Anderson"
+                }
+            ]
+        },
+        "trip": {
+            "label": "Template: Trip Planning",
+            "participants": [
+                {
+                    "id": "Emma",
+                    "name": "Emma",
+                    "capacity": "N/A",
+                    "color": "#E74C3C"
+                },
+                {
+                    "id": "Liam",
+                    "name": "Liam",
+                    "capacity": "N/A",
+                    "color": "#8E44AD"
+                },
+                {
+                    "id": "Olivia",
+                    "name": "Olivia",
+                    "capacity": "N/A",
+                    "color": "#3498DB"
+                },
+                {
+                    "id": "Noah",
+                    "name": "Noah",
+                    "capacity": "N/A",
+                    "color": "#27AE60"
+                },
+                {
+                    "id": "Ava",
+                    "name": "Ava",
+                    "capacity": "N/A",
+                    "color": "#F1C40F"
+                }
+            ],
+            "tasks": [
+                {
+                    "id": "Trip_Task1",
+                    "name": "Decide on Destinations",
+                    "start": "2024-04-01",
+                    "end": "2024-04-05",
+                    "progress": 100,
+                    "assignee": "Emma"
+                },
+                {
+                    "id": "Trip_Task2",
+                    "name": "Book Flights",
+                    "start": "2024-04-06",
+                    "end": "2024-04-10",
+                    "progress": 80,
+                    "assignee": "Liam"
+                },
+                {
+                    "id": "Trip_Task3",
+                    "name": "Reserve Accommodations",
+                    "start": "2024-04-11",
+                    "end": "2024-04-20",
+                    "progress": 60,
+                    "assignee": "Olivia"
+                },
+                {
+                    "id": "Trip_Task4",
+                    "name": "Plan Daily Itinerary",
+                    "start": "2024-04-21",
+                    "end": "2024-04-30",
+                    "progress": 40,
+                    "assignee": "Noah"
+                },
+                {
+                    "id": "Trip_Task5",
+                    "name": "Pack Luggage",
+                    "start": "2024-05-01",
+                    "end": "2024-05-01",
+                    "progress": 0,
+                    "assignee": "Ava"
+                },
+                {
+                    "id": "Trip_Task6",
+                    "name": "Depart for Trip",
+                    "start": "2024-05-02",
+                    "end": "2024-05-02",
+                    "progress": 0,
+                    "assignee": "All"
+                }
+            ]
+        },
+        "workout": {
+            "label": "Template: Workout",
+            "participants": [
+                {
+                    "id": "Trainer John",
+                    "name": "John Doe",
+                    "capacity": "10",
+                    "color": "#3498DB"
+                },
+                {
+                    "id": "Trainee Jane",
+                    "name": "Jane Smith",
+                    "capacity": "10",
+                    "color": "#E74C3C"
+                }
+            ],
+            "tasks": [
+                {
+                    "id": "Workout1",
+                    "name": "Initial Assessment",
+                    "start": "2024-01-01",
+                    "end": "2024-01-01",
+                    "progress": 100,
+                    "assignee": "Trainer John"
+                },
+                {
+                    "id": "Workout2",
+                    "name": "Strength Training",
+                    "start": "2024-01-03",
+                    "end": "2024-01-03",
+                    "progress": 100,
+                    "assignee": "Trainer John"
+                },
+                {
+                    "id": "Workout3",
+                    "name": "Cardio Session",
+                    "start": "2024-01-05",
+                    "end": "2024-01-05",
+                    "progress": 75,
+                    "assignee": "Trainer John"
+                },
+                {
+                    "id": "Workout4",
+                    "name": "Flexibility and Mobility",
+                    "start": "2024-01-08",
+                    "end": "2024-01-08",
+                    "progress": 50,
+                    "assignee": "Trainee Jane"
+                },
+                {
+                    "id": "Workout5",
+                    "name": "Core Training",
+                    "start": "2024-01-10",
+                    "end": "2024-01-10",
+                    "progress": 60,
+                    "assignee": "Trainer John"
+                },
+                {
+                    "id": "Workout6",
+                    "name": "Endurance Training",
+                    "start": "2024-01-12",
+                    "end": "2024-01-12",
+                    "progress": 50,
+                    "assignee": "Trainer John"
+                },
+                {
+                    "id": "Workout7",
+                    "name": "High-Intensity Interval Training",
+                    "start": "2024-01-15",
+                    "end": "2024-01-15",
+                    "progress": 40,
+                    "assignee": "Trainer John"
+                },
+                {
+                    "id": "Workout8",
+                    "name": "Recovery and Stretching",
+                    "start": "2024-01-17",
+                    "end": "2024-01-17",
+                    "progress": 30,
+                    "assignee": "Trainee Jane"
+                },
+                {
+                    "id": "Workout9",
+                    "name": "Nutritional Planning",
+                    "start": "2024-01-20",
+                    "end": "2024-01-20",
+                    "progress": 25,
+                    "assignee": "Trainer John"
+                },
+                {
+                    "id": "Workout10",
+                    "name": "Program Review and Adjustments",
+                    "start": "2024-01-22",
+                    "end": "2024-01-22",
+                    "progress": 0,
+                    "assignee": "Trainer John"
+                }
+            ]
+        },
+        "construction": {
+            "label": "Construction Project",
+            "participants": [
+                {
+                    "id": "P001",
+                    "name": "Project Manager 1",
+                    "capacity": "7",
+                    "color": "#832923"
+                },
+                {
+                    "id": "P002",
+                    "name": "Project Manager 2",
+                    "capacity": "6",
+                    "color": "#874eb4"
+                },
+                {
+                    "id": "P003",
+                    "name": "Architect 1",
+                    "capacity": "8",
+                    "color": "#7b6252"
+                },
+                {
+                    "id": "P004",
+                    "name": "Architect 2",
+                    "capacity": "6",
+                    "color": "#dc6745"
+                },
+                {
+                    "id": "P005",
+                    "name": "Structural Engineer 1",
+                    "capacity": "10",
+                    "color": "#428758"
+                },
+                {
+                    "id": "P006",
+                    "name": "Structural Engineer 2",
+                    "capacity": "5",
+                    "color": "#91795c"
+                },
+                {
+                    "id": "P007",
+                    "name": "Surveyor 1",
+                    "capacity": "8",
+                    "color": "#bc9336"
+                },
+                {
+                    "id": "P008",
+                    "name": "Surveyor 2",
+                    "capacity": "2",
+                    "color": "#446247"
+                },
+                {
+                    "id": "P009",
+                    "name": "General Contractor 1",
+                    "capacity": "2",
+                    "color": "#dd8d1c"
+                },
+                {
+                    "id": "P010",
+                    "name": "General Contractor 2",
+                    "capacity": "3",
+                    "color": "#188bd3"
+                }
+            ],
+            "tasks": [
+                {
+                    "id": "T001",
+                    "name": "T001",
+                    "start": "2024-01-01T08:00:00.000Z",
+                    "end": "2024-01-06T08:00:00.000Z",
+                    "progress": 75,
+                    "assignee": "P001"
+                },
+                {
+                    "id": "T002",
+                    "name": "T002",
+                    "start": "2024-01-06T08:00:00.000Z",
+                    "end": "2024-01-21T08:00:00.000Z",
+                    "progress": 96,
+                    "assignee": "P001"
+                },
+                {
+                    "id": "T003",
+                    "name": "T003",
+                    "start": "2024-01-21T08:00:00.000Z",
+                    "end": "2024-01-28T08:00:00.000Z",
+                    "progress": 32,
+                    "assignee": "P007"
+                },
+                {
+                    "id": "T004",
+                    "name": "T004",
+                    "start": "2024-01-28T08:00:00.000Z",
+                    "end": "2024-02-02T08:00:00.000Z",
+                    "progress": 12,
+                    "assignee": "P005"
+                },
+                {
+                    "id": "T005",
+                    "name": "T005",
+                    "start": "2024-02-02T08:00:00.000Z",
+                    "end": "2024-02-22T08:00:00.000Z",
+                    "progress": 68,
+                    "assignee": "P003"
+                },
+                {
+                    "id": "T006",
+                    "name": "T006",
+                    "start": "2024-02-22T08:00:00.000Z",
+                    "end": "2024-03-08T08:00:00.000Z",
+                    "progress": 97,
+                    "assignee": "P006"
+                },
+                {
+                    "id": "T007",
+                    "name": "T007",
+                    "start": "2024-03-08T08:00:00.000Z",
+                    "end": "2024-03-13T07:00:00.000Z",
+                    "progress": 83,
+                    "assignee": "P002"
+                },
+                {
+                    "id": "T008",
+                    "name": "T008",
+                    "start": "2024-03-13T07:00:00.000Z",
+                    "end": "2024-03-18T07:00:00.000Z",
+                    "progress": 36,
+                    "assignee": "P001"
+                },
+                {
+                    "id": "T009",
+                    "name": "T009",
+                    "start": "2024-03-18T07:00:00.000Z",
+                    "end": "2024-03-23T07:00:00.000Z",
+                    "progress": 7,
+                    "assignee": "P010"
+                },
+                {
+                    "id": "T010",
+                    "name": "T010",
+                    "start": "2024-03-23T07:00:00.000Z",
+                    "end": "2024-03-26T07:00:00.000Z",
+                    "progress": 16,
+                    "assignee": "P010"
+                },
+                {
+                    "id": "T011",
+                    "name": "T011",
+                    "start": "2024-03-26T07:00:00.000Z",
+                    "end": "2024-03-28T07:00:00.000Z",
+                    "progress": 95,
+                    "assignee": "Unassigned"
+                },
+                {
+                    "id": "T012",
+                    "name": "T012",
+                    "start": "2024-03-28T07:00:00.000Z",
+                    "end": "2024-03-30T07:00:00.000Z",
+                    "progress": 21,
+                    "assignee": "P007"
+                },
+                {
+                    "id": "T013",
+                    "name": "T013",
+                    "start": "2024-03-30T07:00:00.000Z",
+                    "end": "2024-03-31T07:00:00.000Z",
+                    "progress": 14,
+                    "assignee": "P001"
+                }
+            ]
+        },
+        "empty": {
+            "label": "Template: Empty",
+            "participants": [],
+            "tasks": []
+        },
+        "clinical": {
+            "label": "Template: Clinical Trial",
+            "participants": [
+                {
+                    "id": "Subject 001",
+                    "name": "Subject 001",
+                    "capacity": "5",
+                    "color": "#FF5733"
+                },
+                {
+                    "id": "Subject 002",
+                    "name": "Subject 002",
+                    "capacity": "4",
+                    "color": "#33FF57"
+                },
+                {
+                    "id": "Subject 003",
+                    "name": "Subject 003",
+                    "capacity": "3",
+                    "color": "#3357FF"
+                },
+                {
+                    "id": "Dr. Emma Thompson",
+                    "name": "Dr. Emma Thompson",
+                    "capacity": "10",
+                    "color": "#FF33A8"
+                },
+                {
+                    "id": "Dr. Liam Johnson",
+                    "name": "Dr. Liam Johnson",
+                    "capacity": "8",
+                    "color": "#A833FF"
+                },
+                {
+                    "id": "Sarah Parker",
+                    "name": "Sarah Parker",
+                    "capacity": "7",
+                    "color": "#FFD700"
+                },
+                {
+                    "id": "John Williams",
+                    "name": "John Williams",
+                    "capacity": "6",
+                    "color": "#FF4500"
+                }
+            ],
+            "tasks": [
+                {
+                    "id": "CT_Task1",
+                    "name": "Protocol Development",
+                    "start": "2024-01-01",
+                    "end": "2024-01-10",
+                    "progress": 100,
+                    "assignee": "Dr. Emma Thompson"
+                },
+                {
+                    "id": "CT_Task2",
+                    "name": "Regulatory Submission",
+                    "start": "2024-01-11",
+                    "end": "2024-01-15",
+                    "progress": 100,
+                    "assignee": "Dr. Liam Johnson"
+                },
+                {
+                    "id": "CT_Task3",
+                    "name": "Site Preparation & Training",
+                    "start": "2024-01-16",
+                    "end": "2024-01-20",
+                    "progress": 90,
+                    "assignee": "Dr. Liam Johnson"
+                },
+                {
+                    "id": "CT_Task4",
+                    "name": "Subject Recruitment",
+                    "start": "2024-01-21",
+                    "end": "2024-01-30",
+                    "progress": 75,
+                    "assignee": "Dr. Emma Thompson"
+                },
+                {
+                    "id": "CT_Task5",
+                    "name": "Subject Screening & Consent",
+                    "start": "2024-02-01",
+                    "end": "2024-02-05",
+                    "progress": 50,
+                    "assignee": "Dr. Emma Thompson"
+                },
+                {
+                    "id": "CT_Task6",
+                    "name": "Baseline Assessments",
+                    "start": "2024-02-06",
+                    "end": "2024-02-08",
+                    "progress": 40,
+                    "assignee": "Dr. Liam Johnson"
+                },
+                {
+                    "id": "CT_Task7",
+                    "name": "Randomization",
+                    "start": "2024-02-09",
+                    "end": "2024-02-10",
+                    "progress": 100,
+                    "assignee": "Sarah Parker"
+                },
+                {
+                    "id": "CT_Task8",
+                    "name": "Intervention Administration",
+                    "start": "2024-02-11",
+                    "end": "2024-02-20",
+                    "progress": 30,
+                    "assignee": "Dr. Emma Thompson"
+                },
+                {
+                    "id": "CT_Task9",
+                    "name": "Data Collection & Monitoring",
+                    "start": "2024-02-11",
+                    "end": "2024-03-01",
+                    "progress": 20,
+                    "assignee": "Sarah Parker"
+                },
+                {
+                    "id": "CT_Task10",
+                    "name": "Adverse Event Monitoring",
+                    "start": "2024-02-11",
+                    "end": "2024-03-15",
+                    "progress": 10,
+                    "assignee": "Dr. Liam Johnson"
+                },
+                {
+                    "id": "CT_Task11",
+                    "name": "Mid-Study Review",
+                    "start": "2024-03-16",
+                    "end": "2024-03-18",
+                    "progress": 0,
+                    "assignee": "John Williams"
+                },
+                {
+                    "id": "CT_Task12",
+                    "name": "Data Analysis - Preliminary Results",
+                    "start": "2024-03-19",
+                    "end": "2024-03-25",
+                    "progress": 0,
+                    "assignee": "John Williams"
+                },
+                {
+                    "id": "CT_Task13",
+                    "name": "Data Review Meeting",
+                    "start": "2024-03-26",
+                    "end": "2024-03-26",
+                    "progress": 0,
+                    "assignee": "Dr. Emma Thompson"
+                },
+                {
+                    "id": "CT_Task14",
+                    "name": "Final Subject Visits",
+                    "start": "2024-03-27",
+                    "end": "2024-03-31",
+                    "progress": 0,
+                    "assignee": "Dr. Liam Johnson"
+                },
+                {
+                    "id": "CT_Task15",
+                    "name": "Database Lock",
+                    "start": "2024-04-01",
+                    "end": "2024-04-01",
+                    "progress": 0,
+                    "assignee": "Sarah Parker"
+                },
+                {
+                    "id": "CT_Task16",
+                    "name": "Final Data Analysis",
+                    "start": "2024-04-02",
+                    "end": "2024-04-10",
+                    "progress": 0,
+                    "assignee": "John Williams"
+                },
+                {
+                    "id": "CT_Task17",
+                    "name": "Clinical Study Report Writing",
+                    "start": "2024-04-11",
+                    "end": "2024-04-20",
+                    "progress": 0,
+                    "assignee": "Dr. Emma Thompson"
+                },
+                {
+                    "id": "CT_Task18",
+                    "name": "Regulatory Submission for Approval",
+                    "start": "2024-04-21",
+                    "end": "2024-04-25",
+                    "progress": 0,
+                    "assignee": "Dr. Liam Johnson"
+                },
+                {
+                    "id": "CT_Task19",
+                    "name": "Final Review & Sign-Off",
+                    "start": "2024-04-26",
+                    "end": "2024-04-30",
+                    "progress": 0,
+                    "assignee": "Dr. Emma Thompson"
+                },
+                {
+                    "id": "CT_Task20",
+                    "name": "Publication of Results",
+                    "start": "2024-05-01",
+                    "end": "2024-05-05",
+                    "progress": 0,
+                    "assignee": "John Williams"
+                }
+            ]
+        }
+    }
+}
